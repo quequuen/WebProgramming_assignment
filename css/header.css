@@ -1,0 +1,95 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  height: 810px;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrap {
+  width: 50%;
+  height: 100%;
+  border: 1px solid lightgray;
+}
+
+header {
+  width: 100%;
+  height: 40%;
+}
+
+.logo {
+  height: 15%;
+  margin-left: 5%;
+}
+
+.logo p {
+  margin: 0;
+  line-height: 60px;
+  font-size: 1.4em;
+}
+
+.profile {
+  width: 100%;
+  height: 83%;
+  display: flex;
+}
+
+.my_img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_img .img {
+  width: 52%;
+  height: 55%;
+  border-radius: 50%;
+  background-image: url("../media/me.JPG");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(250, 250, 250);
+}
+
+.my_info {
+  width: 55%;
+  height: 100%;
+}
+
+.my_info div:first-child {
+  margin-top: 5%;
+  padding: 10% 0;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.my_info div span {
+  color: rgb(173, 173, 173);
+  font-weight: 350;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.my_info div span:first-child {
+  margin-left: 0;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.lighter {
+  width: 80%;
+  font-weight: lighter;
+}
