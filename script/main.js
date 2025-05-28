@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <table>
                 <tr>
                   <td><strong>프론트엔드 기술 강화:</strong></td>
-                  <td>React, Next.js, TypeScript 등을 학습하여 웹 애플리케이션 개발 능력 향상</td>
+                  <td>React, Next.js, TypeScript 등을 학습<br>하여 웹 애플리케이션 개발 능력 향상</td>
                 </tr>
                 <tr>
                   <td><strong>백엔드 경험 쌓기:</strong></td>
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </tr>
                 <tr>
                   <td><strong>풀스택 웹 개발자로 성장:</strong></td>
-                  <td>클라이언트와 서버 모두 다룰 수 있는 능력 강화</td>
+                  <td>클라이언트와 서버 모두 다룰 수 있는<br>능력 강화</td>
                 </tr>
               </table>
             </div>

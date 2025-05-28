@@ -6,8 +6,51 @@
     <title>Document</title>
     <style>
       @import url(css/project.css);
+      @import url(css/footer.css);
     </style>
-    <script src="script/project.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo">
+          <a href="index.html"
+            ><p style="font-family: 'Playball'">Hanstagram</p></a
+          >
+        </div>
+        <div class="back"><a href="#" onclick="history.back(-1)">🔙</a></div>
+      </header>
+      <div class="content_wrap">
+        <div class="poster">
+          <div class="poster_img"></div>
+          gaYeon_Han
+        </div>
+        <div id="image_area"><img class="project_img" /></div>
+        <div id="project_symbol">
+          <img
+            src="media/no_active_heart.png"
+            alt="https://www.flaticon.com/kr/free-icon/heart_18668438?term=like&page=1&position=24&origin=search&related_id=18668438"
+          />
+        </div>
+        <div id="content_body">
+          <div class="ment"></div>
+          <div class="tag"></div>
+          <div class="date"></div>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <div class="links">
+            <a href="https://github.com/quequuen" target="_blank"
+              ><img src="media/gitHubImage.png" alt="깃허브"
+            /></a>
+            <a href="https://velog.io/@quequuen/posts" target="_blank"
+              ><img src="media/velog.png" alt="벨로그"
+            /></a>
+          </div>
+          <div>2025 Design from instagram(Meta)</div>
+        </div>
+      </footer>
+    </div>
+    <script src="script/project.js"></script>
+  </body>
 </html>
